@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521/xe
-    username: system
-    password: system
-    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:postgresql://localhost:5432/microservice
+    username: postgres
+    password: root
+
   jpa:
     hibernate:
       ddl-auto: update
